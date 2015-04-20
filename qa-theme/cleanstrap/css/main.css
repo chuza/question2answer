@@ -4247,9 +4247,9 @@ input[type=checkbox].on-off-checkbox {
     margin-top: 0;
 }
 .qa-q-list.clean .qa-q-item-title a{
-    color: #777777;
+    color: #111111;
     display: inline;
-    font-size: 13px;
+    font-size: 0.9em;
     font-weight: 300;
 }
 .qa-q-list.clean .qa-q-list-item .qa-q-item-title{
