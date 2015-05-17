@@ -8,3 +8,20 @@
 	Theme License: GPL 2.0
 	Theme Update Check URI: https://raw.githubusercontent.com/Towhidn/CleanStrap/master/cleanstrap/qa-styles.css
 */
+
+ul.qa-feed-list {
+  list-style-type:none;
+  padding: 10px;
+}
+
+ul.qa-feed-list li {
+  background-color:#AAF;
+  color: white;
+  padding: 4px;
+  margin: 4px;
+  border-radius:8px;
+}
+
+ul.qa-feed-list li a, a:link, a:active, a:visited {
+  color: white;
+}
