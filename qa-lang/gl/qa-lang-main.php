@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-main.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases commonly used throughout Q2A
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -51,11 +47,11 @@
 		'answer_edited' => 'resposta editada',
 		'answer_reshown' => 'resposta reamosada',
 		'answer_selected' => 'resposta seleccionada',
+		'answered' => 'respondida',
 		'answered_qs_in_x' => 'Preguntas con máis respostas en ^',
 		'answered_qs_title' => 'Preguntas máis respondidas',
-		'answered' => 'respondida',
-		'asked_related_q' => 'preguntas relacionadas feitas',
 		'asked' => 'preguntado',
+		'asked_related_q' => 'preguntas relacionadas feitas',
 		'by_x' => 'por ^',
 		'cancel_button' => 'Cancelar',
 		'closed' => 'pechada',
@@ -63,39 +59,41 @@
 		'comment_moved' => 'comentario movido',
 		'comment_reshown' => 'comentario reamosado',
 		'commented' => 'comentado',
-		'date_day_min_digits' => 1, // 1 or 2
+		'date_day_min_digits' => '1', // 1 or 2
 		'date_format_other_years' => '^day de ^month, ^year',
 		'date_format_this_year' => '^day de ^month',
 		'date_month_1' => 'xan',
-        'date_month_2' => 'feb',
-        'date_month_3' => 'mar',
-        'date_month_4' => 'abr',
-        'date_month_5' => 'mai',
-        'date_month_6' => 'xuñ',
-        'date_month_7' => 'xul',
-        'date_month_8' => 'ago',
-        'date_month_9' => 'set',
-        'date_month_10' => 'out',
-        'date_month_11' => 'nov',
-        'date_month_12' => 'dec',
-		'date_year_digits' => 4, // 2 or 4
+		'date_month_2' => 'feb',
+		'date_month_3' => 'mar',
+		'date_month_4' => 'abr',
+		'date_month_5' => 'mai',
+		'date_month_6' => 'xuñ',
+		'date_month_7' => 'xul',
+		'date_month_8' => 'ago',
+		'date_month_9' => 'set',
+		'date_month_10' => 'out',
+		'date_month_11' => 'nov',
+		'date_month_12' => 'dec',
+		'date_year_digits' => '4', // 2 or 4
 		'edited' => 'editada',
+		'email_error' => 'Produciuse un erro tentando enviar o correo electrónico.',
 		'field_required' => 'Introduza algo neste campo',
+		'file_upload_limit_exceeded' => 'O tamaño do ficheiro supera os límites do servidor',
 		'general_error' => 'Produciuse un erro de servidor - probe outra vez.',
 		'hidden' => 'agochada',
 		'highest_users' => 'Usuarios con maior puntuación',
 		'hot_qs_in_x' => 'Preguntas destacadas en ^',
 		'hot_qs_title' => 'Preguntas destacadas',
-		'image_not_read' => 'Non foi posíbel ler a imaxe. Suba unha de: ^',
+		'image_not_read' => 'Non foi posíbel ler a imaxe. Envíe unha de: ^',
 		'image_too_big_x_pc' => 'Esta imaxe é demasiado grande. Redimensione a ^% e probe outra vez.',
 		'in_category_x' => 'en ^',
 		'ip_address_x' => 'Enderezo IP ^',
 		'logged_in_x' => 'Ola ^',
 		'max_length_x' => 'O tamaño máximo é de ^ caracteres',
+		'max_upload_size_x' => 'O tamaño máximo de envío é ^',
 		'me' => 'eu',
 		'meta_order' => '^what^who^when^where', // you can reorder but DO NOT translate! e.g. <answered> <15 hours ago> <in Problems> <by me (500 points)>
 		'min_length_x' => 'Forneza máis información - cando menos ^ caracteres',
-		'max_upload_size_x' => 'O tamaño máximo de subida é ^',
 		'moved' => 'movido',
 		'nav_activity' => 'Toda a actividade',
 		'nav_admin' => 'Admin',
@@ -166,17 +164,19 @@
 		'search_title' => 'Resultados da busca',
 		'selected' => 'seleccionada',
 		'send_button' => 'Enviar',
+		'since_x' => 'dende ^',
 		'suggest_ask' => 'Axudar a que as cousas comecen ^1facendo unha pregunta^2.',
 		'suggest_category_qs' => 'Para ver máis, prema en todas as ^1preguntas desta categoría^2.',
-		'suggest_qs_tags' => 'Para ver máis, prema en ^1lista completa de preguntas^2 ou ^3etiquetas populares^4.',
 		'suggest_qs' => 'Para ver máis, prema en ^1lista completa de preguntas^2.',
+		'suggest_qs_tags' => 'Para ver máis, prema en ^1lista completa de preguntas^2 ou ^3etiquetas populares^4.',
+		'to_x' => 'a ^',
 		'unanswered_qs_in_x' => 'Preguntas sen resposta en ^',
 		'unanswered_qs_title' => 'Preguntas recentes sen respostas',
 		'unselected_qs_in_x' => 'Preguntas sen unha resposta seleccionada en ^',
 		'unselected_qs_title' => 'Preguntas recentes sen unha resposta seleccionada',
 		'unupvoteda_qs_in_x' => 'Preguntas sen unha resposta promocionada en ^',
 		'unupvoteda_qs_title' => 'Preguntas recentes sen unha resposta promocionada',
-		'upload_limit' => 'Demasiadas accións de subida - probe outra vez dentro dunha hora',
+		'upload_limit' => 'Demasiadas accións de envío; probe outra vez dentro dunha hora',
 		'view_q_must_be_approved' => 'Debe aprobarse a súa conta para ver as páxinas de preguntas.',
 		'view_q_must_confirm' => '^5Confirme o seu enderezo de correo^6 para ver as páxinas de preguntas.',
 		'view_q_must_login' => '^1Inicie sesión^2 ou ^3rexístrese^4 para ver as páxinas de preguntas.',
@@ -223,7 +223,7 @@
 		'x_weeks' => '^ semanas',
 		'x_years' => '^ anos',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

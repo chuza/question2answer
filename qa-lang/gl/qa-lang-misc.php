@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-misc.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Miscellaneous language phrases
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -58,6 +54,7 @@
 		'form_security_reload' => 'Recargar a páxina e logo probar outra vez',
 		'hide_all_ip_button' => 'Agochar todas as publicacións deste IP',
 		'host_name' => 'Nome do servidor:',
+		'inbox' => 'Buzón',
 		'matches_blocked_ips' => 'Correspondencias con enderezos IP bloqueado:',
 		'message_empty' => 'Escriba a mensaxe que enviarlle a este usuario',
 		'message_explanation' => 'Enviarase como notificación de ^. O seu enderezo de correo non se revelará a menos que o inclúa no texto da mensaxe.',
@@ -66,6 +63,9 @@
 		'message_must_login' => 'Para enviar mensaxes privadas debe ^1iniciar sesión^2 ou ^3rexistrarse^4.',
 		'message_recent_history' => 'Correspondencia recente con ^',
 		'message_sent' => 'Enviouse a seguinte mensaxe privada súa',
+		'more_favorite_qs' => 'Máis preguntas favoritas',
+		'more_favorite_tags' => 'Máis etiquetas favoritas...',
+		'more_favorite_users' => 'Máis usuarios favoritos...',
 		'my_favorites_title' => 'Os meus favoritos',
 		'nav_all_my_updates' => 'Todas as miñas actualizacións',
 		'nav_my_content' => 'O meu contido',
@@ -73,6 +73,7 @@
 		'nav_my_favorites' => 'Favoritos',
 		'nav_user_activity' => 'Actividade recente',
 		'nav_user_as' => 'Todas as respostas',
+		'nav_user_pms' => 'Mensaxes privadas',
 		'nav_user_qs' => 'Todas as preguntas',
 		'nav_user_wall' => 'Muro',
 		'no_activity_from_x' => 'Non hai actividade de ^',
@@ -83,6 +84,9 @@
 		'no_recent_updates' => 'Sen actualizacións recentes',
 		'no_updates_content' => 'Sen actualizacións recentes para o meu contido',
 		'no_updates_favorites' => 'Sen actualizacións para os meus favoritos',
+		'outbox' => 'Elementos enviados',
+		'pm_inbox_title' => 'Mensaxes privadas recividas',
+		'pm_outbox_title' => 'Mensaxes privadas enviadas',
 		'private_message_title' => 'Enviar unha mensaxe privada',
 		'recent_activity_from_x' => 'Actividade recente de ^',
 		'recent_updates_content' => 'Actualizacións recentes do meu contido',
@@ -113,7 +117,7 @@
 		'your_q_reshown' => 'a súa pregunta reamosada',
 		'your_q_retagged' => 'a súa pregunta reetiquetada',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

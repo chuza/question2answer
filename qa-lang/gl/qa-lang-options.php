@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-options.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for all options, as shown in admin center
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -27,17 +23,17 @@
 	return array(
 		'allow_change_usernames' => 'Permitir que os usuarios con publicacións cambien o seu nome de usuario:',
 		'allow_close_questions' => 'Permitir que as preguntas se pechen manualmente:',
-		'allow_login_email_only' => 'Iniciar sesión só mediante o enderezo de correo (non o nome de usuario):', 
+		'allow_login_email_only' => 'Iniciar sesión só mediante o enderezo de correo (non o nome de usuario):',
 		'allow_multi_answers' => 'Permitir múltiplas respostas por usuario:',
 		'allow_no_category' => 'Permitir preguntas sen categoría',
 		'allow_no_sub_category' => 'Permitir preguntas que conteñan unha categoría pero ningunha subcategoría',
 		'allow_private_messages' => 'Permitir mensaxaría privada entre usuarios:',
-		'allow_user_walls' => 'Permitir publicacións de muro nos perfís de usuario:',
 		'allow_self_answer' => 'Permitirlles aos usuarios responder as súas propias preguntas:',
+		'allow_user_walls' => 'Permitir publicacións de muro nos perfís de usuario:',
 		'allow_view_q_bots' => 'Permitir motores de busca para ver páxinas de preguntas',
 		'approve_user_required' => 'Todos os novos usuarios deben ser aprobados:',
 		'avatar_allow_gravatar' => 'Permitir avatares ^1Gravatar^2:',
-		'avatar_allow_upload' => 'Permitirlles aos usuarios subir avatares:',
+		'avatar_allow_upload' => 'Permitirlle aos usuarios enviar avatares:',
 		'avatar_default_show' => 'Avatar predeterminado:',
 		'avatar_message_list_size' => 'Tamaño do avatar nas listas de mensaxes:',
 		'avatar_profile_size' => 'Tamaño do avatar na páxina do perfil de usuario:',
@@ -65,9 +61,10 @@
 		'custom_home_content' => 'Contido da páxina principal - permítese HTML:',
 		'custom_home_heading' => 'Cabeceira da páxina principal:',
 		'default_privacy' => 'Privacidade: O seu enderezo de correo non se compartirá nin venderá a terceiros.',
-		'default_sidebar' => "Benvido/a a ^, onde pode facer preguntas e recibir respostas doutros membros da comunidade.",
+		'default_sidebar' => 'Benvido/a a ^, onde pode facer preguntas e recibir respostas doutros membros da comunidade.',
 		'default_subject' => 'Unha mensaxe de ^',
 		'default_suffix' => 'PeR',
+		'default_terms' => 'Concordo cos ^ Termos e Condicións e Política de Privacidade',
 		'do_ask_check_qs' => 'Buscar cuestións semellantes ao preguntar:',
 		'do_close_on_select' => 'Pechar preguntas cunha resposta seleccionada:',
 		'do_complete_tags' => 'Amosar etiquetas coincidentes mentres se escribe:',
@@ -78,8 +75,8 @@
 		'editor_for_qs' => 'Editor predeterminado para preguntas:',
 		'email_privacy' => 'Nota sobre privacidade sobre enderezos de correo - permítese HTML:',
 		'extra_field_active' => 'Campo personalizado para información extra no formulario de preguntas:',
-		'extra_field_display_label' => 'Amosar a información extra nas páxinas de preguntas con etiqueta:',
 		'extra_field_display' => 'Amosar a información extra nas páxinas de preguntas',
+		'extra_field_display_label' => 'Amosar a información extra nas páxinas de preguntas con etiqueta:',
 		'feed_for_activity' => 'Fío de actividade recente:',
 		'feed_for_hot' => 'Fío de cuestións candentes:',
 		'feed_for_qa' => 'Fío de preguntas e respostas recentes:',
@@ -110,7 +107,7 @@
 		'logo_width' => 'Largura do logo:',
 		'mailing_body' => 'Texto do corpo:',
 		'mailing_enabled' => 'Activar o envío masivo de correo a todos os usuarios',
-		'mailing_from_email' => 'Remitido desde o enderezo de correo:',
+		'mailing_from_email' => 'Remitido dende o enderezo de correo:',
 		'mailing_from_name' => 'Con nome:',
 		'mailing_per_minute' => 'Razón máxima de envío masivo:',
 		'mailing_subject' => 'Liña de asunto:',
@@ -131,14 +128,14 @@
 		'max_rate_ip_messages' => 'Límite de puntuación para mensaxes privadas e no muro:',
 		'max_rate_ip_qs' => 'Límite de puntuación para facer preguntas:',
 		'max_rate_ip_registers' => 'Límite de puntuación para rexistros de usuarios:',
-		'max_rate_ip_uploads' => 'Límite de puntuación para cargar ficheiros:',
+		'max_rate_ip_uploads' => 'Taxa límite para o envío de ficheiros:',
 		'max_rate_ip_votes' => 'Límite de puntuación para votación:',
 		'max_rate_user_as' => 'Máximo de respostas por usuario e hora:',
 		'max_rate_user_cs' => 'Máximo de publicacións por usuario e hora:',
 		'max_rate_user_flags' => 'Máximo de marcas por usuario e hora:',
 		'max_rate_user_messages' => 'Máximo de mensaxes privadas por usuario e hora:',
 		'max_rate_user_qs' => 'Máximo de preguntas por usuario e hora:',
-		'max_rate_user_uploads' => 'Máximo de cargas por usuario e hora:',
+		'max_rate_user_uploads' => 'Máximo de envíos por usuario e hora:',
 		'max_rate_user_votes' => 'Máximo de votos por usuario e hora:',
 		'min_len_a_content' => 'Tamaño mínimo de resposta:',
 		'min_len_c_content' => 'Tamaño mínimo de comentario:',
@@ -163,6 +160,7 @@
 		'page_size_ask_tags' => 'Máximo de etiquetas aconsellábeis que amosar:',
 		'page_size_home' => 'Largura da páxina de PeR:',
 		'page_size_hot_qs' => 'Largura da páxina Candente!:',
+		'page_size_pms' => 'Mensaxes privados por páxina: ',
 		'page_size_q_as' => 'Máximo de respostas por páxina:',
 		'page_size_qs' => 'Largura da páxina Preguntas:',
 		'page_size_related_qs' => 'Máximo de preguntas relacionadas:',
@@ -187,8 +185,8 @@
 		'permit_editors' => 'Editores, moderadores, admins',
 		'permit_experts' => 'Expertos, editores, moderadores, admins',
 		'permit_moderators' => 'Moderadores e admins',
-		'permit_points_confirmed' => 'Rexistrado e correo confirmado e punto abondo',
 		'permit_points' => 'Usuarios rexistrados con puntos abondo',
+		'permit_points_confirmed' => 'Rexistrado e correo confirmado e punto abondo',
 		'permit_see_emails' => 'Ver enderezos de correo de usuarios:',
 		'permit_supers' => 'Superadministradores',
 		'permit_users' => 'Usuarios rexistrados',
@@ -249,17 +247,20 @@
 		'show_never' => 'Nunca',
 		'show_notice_visitor' => 'Aviso na parte superior para novos visitantes - permítese HTML:',
 		'show_notice_welcome' => 'Aviso na parte superior para novos usuarios rexistrado - permítese HTML:',
+		'show_post_update_meta' => 'Amosar edicións/actualizacións nos metad. do post:',
+		'show_register_terms' => 'Recadro de comprobación dos «Termos e condicións» no formulario de rexistro - Permítese HTML:',
 		'show_selected_first' => 'Mover a resposta seleccionada á parte superior:',
 		'show_url_links' => 'Detectar e ligar os URL nas publicacións:',
 		'show_user_points' => 'Amosar puntos á beira dos nomes de usuarios:',
 		'show_user_titles' => 'Amosar títulos á beira dos nomes de usuarios:',
-		'show_view_counts' => 'Amosar a vista da conta nas listas de preguntas:',
 		'show_view_count_q_page' => 'Amosar a vista da conta nas páxinas de preguntas:',
+		'show_view_counts' => 'Amosar a vista da conta nas listas de preguntas:',
 		'show_when_created' => 'Amosar a idade das publicacións de usuarios:',
 		'site_language' => 'Idioma do sitio:',
 		'site_maintenance' => 'Suspender o sitio temporalmente por mantemento',
-		'site_theme_mobile' => 'Tema para móbiles:',
+		'site_text_direction' => 'Descripción do sitio',
 		'site_theme' => 'Tema do sitio:',
+		'site_theme_mobile' => 'Tema para móbiles:',
 		'site_title' => 'Nome do sitio PeR:',
 		'site_url' => 'URL preferente para o sitio:',
 		'smtp_active' => 'Enviar un correo vía SMTP en lugar de correo local',
@@ -267,8 +268,8 @@
 		'smtp_authenticate' => 'Enviar o nome de usuario SMTP e o contrasinal',
 		'smtp_password' => 'Contrasinal SMTP:',
 		'smtp_port' => 'Porto do servidor SMTP:',
-		'smtp_secure_none' => 'Ningún',
 		'smtp_secure' => 'Conexión segura SMTP:',
+		'smtp_secure_none' => 'Ningún',
 		'smtp_username' => 'Nome de usuario SMTP:',
 		'sort_answers_by' => 'Ordenar respostas por:',
 		'sort_time' => 'Horario',
@@ -283,7 +284,7 @@
 		'voting_on_q_page_only' => 'Permitir votar só na páxina de preguntas:',
 		'voting_on_qs' => 'Permitir votación nas preguntas:',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

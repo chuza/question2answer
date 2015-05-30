@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-users.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for user management
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -81,8 +77,8 @@
 		'login_button' => 'Inicio de sesión',
 		'login_limit' => 'Demasiados intentos de inicio de sesión - probe dentro dunha hora',
 		'login_title' => 'Inicio de sesión',
-		'mass_mailings_explanation' => 'Subscribirse a correos remitidos a todos os usuarios',
 		'mass_mailings' => 'Correos masivos:',
+		'mass_mailings_explanation' => 'Subscribirse a correos remitidos a todos os usuarios',
 		'member_for' => 'Membro de:',
 		'member_type' => 'Tipo:',
 		'new_password_1' => 'Novo contrasinal:',
@@ -102,19 +98,17 @@
 		'password_sent' => 'Envióuselle o novo contrasinal ao correo',
 		'password_to_set' => 'Forneza o seu contrasinal na páxina da conta',
 		'password_wrong' => 'O contrasinal non é correcto',
-		'private_messages_explanation' => 'Permitirlles aos usuarios enviarlle correos (sen que vexan o seu enderezo)',
 		'private_messages' => 'Mensaxes privadas:',
+		'private_messages_explanation' => 'Permitirlles aos usuarios enviarlle correos (sen que vexan o seu enderezo)',
 		'profile_saved' => 'Perfil gardado',
-		'wall_posts' => 'Todas as publicacións:',
-		'wall_posts_explanation' => 'Permitirlles aos usuarios publicar no seu muro (tamén o recibirá no correo)',
 		'register_button' => 'Rexistro',
 		'register_limit' => 'Demasiados rexistros - probe dentro dunha hora',
 		'register_suspended' => 'Suspéndese temporariamente o rexistro de novos usuarios. Probe de novo máis tarde.',
 		'register_title' => 'Rexistrarse como novo usuario',
 		'registered_label' => 'Rexistrado:',
 		'registered_user' => 'Usuario rexistrado',
-		'remember_label' => 'Lémbreme neste computador',
 		'remember' => 'Lembre',
+		'remember_label' => 'Lémbreme neste computador',
 		'remove_avatar' => 'Eliminar o avatar:',
 		'reset_code_another' => 'enviar outro',
 		'reset_code_emailed' => 'Envióuselle ao correo o código de reinicio',
@@ -128,17 +122,20 @@
 		'send_reset_button' => 'Enviar o contrasinal de restabelecemento',
 		'send_reset_note' => 'Enviarase unha mensaxe ao seu enderezo de correo coas instrucións.',
 		'special_users' => 'Usuarios especiais',
+		'terms_not_accepted' => 'Debe marcar isto.',
 		'unblock_user_button' => 'Desbloquear usuario',
-		'unsubscribe_complete' => 'Desubscribíuselle do envío de correo masivo enviado por ^0. Pode resubscribirse en calquera momento mediane a súa páxina de ^1conta^2.', 
+		'unsubscribe' => 'Cancelar a subscrición:',
+		'unsubscribe_complete' => 'Desubscribíuselle do envío de correo masivo enviado por ^0. Pode resubscribirse en calquera momento mediane a súa páxina de ^1conta^2.',
 		'unsubscribe_title' => 'Cancelar a subscrición',
 		'unsubscribe_wrong_log_in' => 'O código non é correcto - ^1inicie sesión^2 para cancelar a subscrición',
-		'unsubscribe' => 'Cancelar a subscrición:',
 		'user_blocked' => '(bloqueado)',
 		'user_not_found' => 'Non se atopou o usuario',
+		'wall_posts' => 'Todas as publicacións:',
+		'wall_posts_explanation' => 'Permitirlles aos usuarios publicar no seu muro (tamén o recibirá no correo)',
 		'website' => 'Sitio web',
-		'x_ago_from_y' => '^1 desde ^2',
+		'x_ago_from_y' => '^1 dende ^2',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

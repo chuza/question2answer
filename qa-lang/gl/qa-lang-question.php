@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-question.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for question page
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -26,10 +22,10 @@
 
 	return array(
 		'1_answer_title' => '1 Resposta',
-		'a_convert_to_c_on' => 'Converter esta resposta nun comentario sobre:',
 		'a_convert_to_c' => 'Converter esta resposta nun comentario',
-		'a_convert_warn_cs' => 'Ollo: Esa conversión non se pode reverter e tamén moverá os comentarios da resposta.',
+		'a_convert_to_c_on' => 'Converter esta resposta nun comentario sobre:',
 		'a_convert_warn' => 'Ollo: Esta conversión non se pode reverter.',
+		'a_convert_warn_cs' => 'Ollo: Esa conversión non se pode reverter e tamén moverá os comentarios da resposta.',
 		'a_notify_email' => 'Envíeme un correo a este enderezo se a miña resposta for seleccionada ou comentada en:',
 		'a_notify_label' => 'Envíeme un correo se a miña resposta for seleccionada ou comentada en',
 		'a_notify_x_label' => 'Envíeme un correo (^) se a miña resposta for seleccionada ou comentada en',
@@ -45,7 +41,10 @@
 		'answer_must_confirm' => '^5Confirme o seu enderezo de correo^6 para responder esta pregunta.',
 		'answer_must_login' => '^1Inicie sesión^2 ou ^3rexístrese^4 para responder esta pregunta.',
 		'answer_q_popup' => 'Responder esta pregunta',
+		'approve_a_popup' => 'Aprobar esta resposta',
 		'approve_button' => 'aprobar',
+		'approve_c_popup' => 'Aprobar este comentario',
+		'approve_q_popup' => 'Aprobar a pregunta',
 		'ask_button' => 'Facer a pregunta',
 		'ask_follow_from_a' => 'A súa pregunta terá relación con esta resposta:',
 		'ask_follow_title' => 'Facer unha pregunta relacionada',
@@ -60,18 +59,21 @@
 		'c_notify_x_label' => 'Envíeme un correo (^) se un comentario for engadido despois do meu',
 		'c_waiting_your_approval' => 'Este comentario está esperando a súa aprobación',
 		'c_your_waiting_approval' => 'O seu comentario revisarase e aprobarase en breve.',
+		'category_ask_not_allowed' => 'Non ten permiso para engadir preguntas nesta categoría',
 		'category_js_note' => 'Para seleccionar calquera categoría, active Javascript no seu navegador web.',
 		'category_required' => 'Escolla unha categoría',
-		'category_ask_not_allowed' => 'Non ten permiso para engadir preguntas nesta categoría',
+		'claim_a_popup' => 'Asignar esta resposta á súa conta de usuario',
 		'claim_button' => 'Escribín isto',
+		'claim_c_popup' => 'Asignar este comentario á súa conta de usuario',
+		'claim_q_popup' => 'Asignar esta pregunta á súa conta de usuario',
 		'clear_flags_button' => 'limpar marcas',
 		'clear_flags_popup' => 'Retirar marcas de todos os usuarios',
 		'close_button' => 'pechar',
-		'close_duplicate_error' => 'Non foi posíbel atopar a pregunta duplicada - probe a introducir o número desde un URL de pregunta diferente, p.e. 123.',
 		'close_duplicate' => 'Este é un duplicado doutra pregunta',
+		'close_duplicate_error' => 'Non foi posíbel atopar a pregunta duplicada; probe a introducir o número dende un URL de pregunta diferente, p.e. 123.',
 		'close_form_button' => 'Pechar a pregunta',
 		'close_form_title' => 'Pechar esta pregunta',
-		'close_original_note' => 'Tamén pode introducir o número de pregunta desde o URL, p. e. 123.',
+		'close_original_note' => 'Tamén pode introducir o número de pregunta dende o URL, p. e. 123.',
 		'close_original_title' => 'URL da pregunta orixinal:',
 		'close_q_popup' => 'Pechar esta pregunta a calquera nova resposta',
 		'close_reason_title' => 'Razón para pechar esta pregunta:',
@@ -139,17 +141,24 @@
 		'recat_button' => 'recategorizar',
 		'recat_popup' => 'Cambiar a categoría desta cuestión',
 		'recat_q_title' => 'Recategorizar a pregunta',
+		'reject_a_popup' => 'Rexeitar esta pregunta',
 		'reject_button' => 'rexeitar',
+		'reject_c_popup' => 'Rexeitar este comentario',
+		'reject_q_popup' => 'Rexeitar esta pregunta',
 		'remove_q_favorites' => 'Retirar esta pregunta das miñas favoritas',
 		'reopen_button' => 'reabrir',
+		'reopen_q_popup' => 'Reabrir esta pregunta',
 		'reply_button' => 'responder',
 		'reply_c_popup' => 'Responder este comentario',
+		'reshow_a_popup' => 'Amosar de novo esta resposta',
 		'reshow_button' => 'reamosar',
+		'reshow_c_popup' => 'Amosar de novo este comentario',
+		'reshow_q_popup' => 'Amosar de novo esta pregunta',
 		'retag_button' => 'reetiquetar',
 		'retag_cat_popup' => 'Cambiar a categoría desta pregunta ou etiquetas',
 		'retag_popup' => 'Cambiar as etiquetas desta pregunta',
 		'retag_q_title' => 'Reetiquetar a pregunta',
-		'save_silent_label' => 'Gardar discretamente para agochar que foi editada', 
+		'save_silent_label' => 'Gardar discretamente para agochar que foi editada',
 		'select_popup' => 'Un clic para seleccionar como mellor resposta',
 		'select_text' => 'A mellor resposta',
 		'show_1_comment' => 'Amosar 1 comentario',
@@ -164,7 +173,7 @@
 		'your_comment_a' => 'O seu comentario nesta resposta:',
 		'your_comment_q' => 'O seu comentario nesta pregunta:',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-profile.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for user profile page
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -30,10 +26,11 @@
 		'1_up_vote' => '1 voto positivo',
 		'1_with_best_chosen' => ' (1 coa mellor resposta escollida)',
 		'activity_by_x' => 'Actividade de ^',
-		'answers_by_x' => 'Respostas de ^',		
 		'answers' => 'Respostas:',
+		'answers_by_x' => 'Respostas de ^',
 		'bonus_points' => 'Puntos de bonificación:',
 		'comments' => 'Comentarios:',
+		'delete_pm_popup' => 'Eliminar a mensaxe privada',
 		'delete_wall_post_popup' => 'Eliminar esta publicación no muro',
 		'extra_privileges' => 'Privilexios extra:',
 		'gave_out' => 'Ofrecidos:',
@@ -70,8 +67,8 @@
 		'post_wall_must_be_approved' => 'Debe aprobarse a súa conta para publicar neste muro.',
 		'post_wall_must_confirm' => '^5Confirme o seu enderezo de correo^6 para publicar sobre este muro.',
 		'post_wall_must_login' => '^1Inicie sesión^2 ou ^3rexístrese^4 para publicar neste muro.',
-		'questions_by_x' => 'Preguntas de ^',
 		'questions' => 'Preguntas:',
+		'questions_by_x' => 'Preguntas de ^',
 		'ranked_x' => ' (clasificado #^)',
 		'received' => 'Recibido:',
 		'recent_activity_by_x' => 'Actividade recente de ^',
@@ -88,7 +85,7 @@
 		'x_up_votes' => '^ votos positivos',
 		'x_with_best_chosen' => ' (^ coa mellor resposta escollida)',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output

@@ -1,13 +1,9 @@
 <?php
-	
 /*
-	Question2Answer (c) Gideon Greenspan
-
+	Question2Answer by Gideon Greenspan and contributors
 	http://www.question2answer.org/
 
-	
 	File: qa-include/qa-lang-emails.php
-	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for email notifications
 
 
@@ -15,7 +11,7 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-	
+
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -243,7 +239,7 @@ Grazas,
 
 ^site_title",
 		'q_posted_subject' => '^site_title ten unha nova pregunta',
-		
+
 		'remoderate_body' => "Unha publicación editada por ^p_handle require a súa reaprobación:
 
 ^open^p_context^close
@@ -280,7 +276,7 @@ Grazas,
 		'to_handle_prefix' => "^,
 
 ",
-		
+
 		'u_registered_body' => "Rexistrouse un novo usuario como ^u_handle.
 
 Prema a seguir para ver o perfil de usuario:
@@ -290,6 +286,7 @@ Prema a seguir para ver o perfil de usuario:
 Grazas,
 
 ^site_title",
+		'u_registered_subject' => '^site_title ten un novo usuario rexistrado',
 		'u_to_approve_body' => "Rexistrouse un novo usuario como ^u_handle.
 
 Prema a seguir para aprobar o usuario:
@@ -303,8 +300,7 @@ Prema a seguir para revisar todos os usuarios agardando aprobación:
 Grazas,
 
 ^site_title",
-		'u_registered_subject' => '^site_title ten un novo usuario rexistrado',
-		
+
 		'u_approved_body' => "Pode ver o seu novo perfil de usuario:
 
 ^url
@@ -313,8 +309,7 @@ Grazas,
 
 ^site_title",
 		'u_approved_subject' => 'Aprobouse o seu usuario en ^site_title',
-		
-		'wall_post_subject' => 'Publicar no seu muro de ^site_title',
+
 		'wall_post_body' => "^f_handle publicou no muro de vostede en ^site_title:
 
 ^open^post^close
@@ -326,6 +321,7 @@ Vostede pode responder á publicación aquí:
 Grazas,
 
 ^site_title",
+		'wall_post_subject' => 'Publicar no seu muro de ^site_title',
 
 		'welcome_body' => "Grazas por rexistrarse en ^site_title.
 
@@ -347,7 +343,7 @@ Grazas,
 ",
 		'welcome_subject' => 'Benvido/a a ^site_title!',
 	);
-	
+
 
 /*
 	Omit PHP closing tag to help avoid accidental output
