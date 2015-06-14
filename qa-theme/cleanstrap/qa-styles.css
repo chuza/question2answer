@@ -22,6 +22,9 @@ ul.qa-feed-list li {
   border-radius:8px;
 }
 
-ul.qa-feed-list li a, a:link, a:active, a:visited {
-  color: #55F;
+ul.qa-feed-list li a,
+ ul.qa-feed-list a:link,
+ ul.qa-feed-list a:active,
+ ul.qa-feed-list a:visited {
+  color: white;
 }
