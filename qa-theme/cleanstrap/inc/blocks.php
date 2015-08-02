@@ -827,6 +827,22 @@ class qa_html_theme extends qa_html_theme_base
         }
         
         $this->q_item_title($q_item);
+
+	$num_answers = $q_item['raw']['acount'];
+	switch($num_answers) {
+		case 0:
+			$num_answers_text = 'Sen resposta';
+			break;
+		case 1:
+			$num_answers_text = '1 resposta';
+			break;
+		default:
+			$num_answers_text = $num_answers.' respostas';
+			break;
+	}
+	$this->output('<div class="oque-num-answers">'.$num_answers_text.'</div>');
+
+
         if (!(bool) qa_opt('cs_enable_clean_qlist')) {
             $this->output('<div class="list-meta">');
             $this->output(cs_post_status($q_item));
