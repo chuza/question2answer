@@ -53,7 +53,7 @@
 		'ask_must_confirm' => '^5Confirme o seu enderezo de correo^6 para facer unha pregunta.',
 		'ask_must_login' => '^1Inicie sesión^2 ou ^3rexístrese^4 para facer unha pregunta.',
 		'ask_same_q' => 'Antes de proceder, comprobe que a súa pregunta non fose feita xa:',
-		'ask_title' => 'Fai unha pregunta',
+		'ask_title' => 'Fai a tua pregunta',
 		'c_notify_email' => 'Envíeme un correo a este enderezo se un comentario for engadido despois do meu:',
 		'c_notify_label' => 'Envíeme un correo se un comentario for engadido despois do meu',
 		'c_notify_x_label' => 'Envíeme un correo (^) se un comentario for engadido despois do meu',
